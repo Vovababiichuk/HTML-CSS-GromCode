@@ -1,8 +1,8 @@
-div {
+.div-item {
 	display: inline;
 }
 
-span {
+.span-item {
 	display: block;
 	width: 200px;
 	height: 100px;
