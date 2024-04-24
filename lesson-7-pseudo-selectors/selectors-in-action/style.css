@@ -18,7 +18,7 @@ p {
 	background-color: yellow;
 }
 
-input[type] {
+label > input {
 	border: 3px solid red;
 }
 
