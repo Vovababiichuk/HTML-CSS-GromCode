@@ -1,4 +1,4 @@
-ul > li > input[checked] {
+ul > li input[checked] {
 	margin-left: 50px;
 }
 
