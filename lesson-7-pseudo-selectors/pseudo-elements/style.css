@@ -1,0 +1,24 @@
+p:first-of-type::first-letter {
+	font-size: 36px;
+	margin-left: 16px;
+	color: orange;
+}
+
+p:first-of-type::first-line {
+	font-size: 24px;
+}
+
+p:first-of-type::selection {
+	background-color: red;
+	color: white;
+}
+
+a::before {
+	content: '>';
+	color: green;
+}
+
+a::after {
+	content: '<';
+	color: green;
+}
