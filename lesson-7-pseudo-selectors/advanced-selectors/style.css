@@ -1,4 +1,4 @@
-ul > li > input[type="checkbox"][checked] {
+div > ul > li > input[type="checkbox"][checked] {
 	margin-left: 50px;
 }
 
