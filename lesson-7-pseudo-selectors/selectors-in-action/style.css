@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-	color: #9b59b6;
+	color:#9b59b6;
 }
 
 h2 {
@@ -39,7 +39,7 @@ input[type="text"] {
 }
 
 div:nth-of-type(3) > p {
-	background-color: red;
+	background-color: yellow;
 }
 
 div:nth-of-type(3) p:nth-of-type(2) {
