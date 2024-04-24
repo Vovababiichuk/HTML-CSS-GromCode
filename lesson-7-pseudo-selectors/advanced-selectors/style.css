@@ -1,4 +1,4 @@
-ul > li [type="checkbox"][checked] {
+ul > li > input[type="checkbox"][checked] {
 	margin-left: 50px;
 }
 
@@ -6,7 +6,7 @@ label {
 	text-transform: uppercase;
 }
 
-#special::first-letter {
+div #special::first-letter {
 	color: green;
 	font-size: 100px;
 }
