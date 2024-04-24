@@ -1,4 +1,4 @@
-input[type="checkbox"][checked] {
+ul > li > input[checked] {
 	margin-left: 50px;
 }
 
@@ -12,10 +12,6 @@ label {
 }
 
 h1:hover {
-	color: blue;
-}
-
-a:link {
 	color: blue;
 }
 
