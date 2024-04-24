@@ -1,4 +1,4 @@
-div > ul > li > input[type="checkbox"][checked] {
+ul > li > input[checked] {
 	margin-left: 50px;
 }
 
@@ -12,6 +12,10 @@ div #special::first-letter {
 }
 
 h1:hover {
+	color: blue;
+}
+
+a:link {
 	color: blue;
 }
 
