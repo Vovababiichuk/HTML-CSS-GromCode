@@ -1,4 +1,4 @@
-.container {
+body {
 	background-color: antiquewhite;
 }
 
@@ -10,12 +10,11 @@
 	height: 128px;
 }
 
-.content-box {
-	box-sizing: content-box;
+.cont {
 	background-color: aquamarine;
 }
 
-.border-box {
+.bord {
 	box-sizing: border-box;
 	background-color: azure;
 }
