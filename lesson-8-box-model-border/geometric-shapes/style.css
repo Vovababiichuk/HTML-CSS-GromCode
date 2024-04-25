@@ -1,8 +1,9 @@
 .container {
-	padding: 50px;
-	display: flex;
-	flex-direction: column;
-	gap: 50px;
+	padding: 50px 0 0 50px;
+}
+
+.shape {
+	margin-bottom: 50px;
 }
 
 .rectangle {
