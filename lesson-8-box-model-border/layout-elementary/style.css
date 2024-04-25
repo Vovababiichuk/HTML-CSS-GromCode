@@ -1,0 +1,21 @@
+.container {
+	margin: 50px;
+}
+
+.rectangle {
+	border: 2px solid black;
+	padding: 50px;
+}
+
+.box-one {
+	background-color: blue;
+}
+.box-two {
+	background-color: yellow;
+}
+.box-three {
+	background-color: green;
+}
+.box-four {
+	background-color: pink;
+}
