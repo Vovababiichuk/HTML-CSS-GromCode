@@ -33,7 +33,8 @@
 
 .triangle {
 	box-sizing: border-box;
-	width: 50px;
+	width: 100px;
+	height: 50px;
 	border: 50px solid transparent;
 	border-top-color: brown;
 }
