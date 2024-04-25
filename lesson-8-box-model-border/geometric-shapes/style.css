@@ -32,9 +32,9 @@
 }
 
 .triangle {
-	box-sizing: border-box;
-	width: 100px;
+	width: 0;
 	height: 50px;
-	border: 50px solid transparent;
-	border-top-color: brown;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 50px solid brown;
 }
