@@ -2,7 +2,7 @@ body {
 	background-color: antiquewhite;
 }
 
-.box {
+.rectangle {
 	border: 8px solid black;
 	margin: 16px;
 	padding: 16px;
@@ -10,11 +10,11 @@ body {
 	height: 128px;
 }
 
-.content-box {
+.first {
 	background-color: aquamarine;
 }
 
-.border-box {
+.second {
 	box-sizing: border-box;
 	background-color: azure;
 }
