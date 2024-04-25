@@ -1,13 +1,16 @@
 .container {
-	padding: 50px;
+	padding: 50px 0 0 50px;
 }
 
 .shape {
 	margin-bottom: 50px;
 }
 
+.shape:last-child {
+	margin-bottom: 0;
+}
+
 .rectangle {
-	box-sizing: border-box;
 	border-radius: 16px;
 	width: 100px;
 	height: 50px;
