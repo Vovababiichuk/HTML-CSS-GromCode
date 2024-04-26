@@ -16,11 +16,12 @@
 	margin-block-end: 0;
 	list-style-type: none;
 	color: white;
+	margin-left: 12px;
 }
 
 .nav-item {
 	display: inline-block;
-	margin-left: 16px;
+	margin-left: 12px;
 }
 
 .content {
