@@ -1,18 +1,21 @@
+.static-parent > .tip {
+	position: static;
+}
 
-.relative-parent {
+.relative-parent > .tip {
 	position: relative;
 	top: 20px;
 	left: 50px;
 }
 
-.absolute-parent {
+.absolute-parent > .tip {
 	position: absolute;
-	top: 20px;
+	right: 20px;
 	left: 50px;
 }
 
-.fixed-parent {
+.fixed-parent > .tip {
 	position: fixed;
-	top: 20px;
-	right: 30px;
+	bottom: 20px;
+	left: 30px;
 }
