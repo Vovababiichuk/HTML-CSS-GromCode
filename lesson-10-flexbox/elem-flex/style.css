@@ -1,10 +1,15 @@
+body {
+	box-sizing: border-box;
+}
+
 .container {
 	display: flex;
+	align-items: center;
 	flex-wrap: wrap;
 }
 
 .block {
 	height: 100px;
+	width: 100px;
 	flex-grow: 1;
-	min-width: 100px;
 }
