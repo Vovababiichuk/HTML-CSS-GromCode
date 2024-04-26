@@ -24,6 +24,8 @@
 }
 
 .nav_item {
+	padding: 20px;
+	background-color: darkturquoise;
 	height: 40px;
 }
 
