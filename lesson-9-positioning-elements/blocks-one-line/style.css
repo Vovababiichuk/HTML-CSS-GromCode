@@ -1,10 +1,11 @@
 .block_red,
 .block_green,
 .block_blue,
-.block_yellow {
+.block_yellow,
+.block_black {
 	height: 200px;
 	float: left;
-	width: 25%;
+	width: 20%;
 }
 
 .block_red {
@@ -21,5 +22,9 @@
 
 .block_yellow {
 	background-color: yellow;
+}
+
+.block_black {
+	background-color: black;
 }
 
