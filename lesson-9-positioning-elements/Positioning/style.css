@@ -1,11 +1,15 @@
 .header {
 	background-color: darkturquoise;
 	height: 40px;
-	display: flex;
-	align-items: center;
 	position: fixed;
 	width: 100%;
 	z-index: 1;
+}
+
+.navigation {
+	height: 40px;
+	display: flex;
+	align-items: center;
 }
 
 .nav-list {
@@ -16,7 +20,7 @@
 	align-items: center;
 	color: white;
 	list-style-type: none;
-	gap: 20px;
+	gap: 16px;
 }
 
 .content {
@@ -24,7 +28,7 @@
 	height: 5000px;
 	display: flex;
 	justify-content: center;
-	padding-top: 300px;
+	padding-top: 200px;
 	z-index: 2;
 }
 
