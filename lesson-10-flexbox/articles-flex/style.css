@@ -12,6 +12,7 @@ h1 {
 	padding: 16px;
 	background-color: bisque;
 	flex-basis: 200px;
-	width: 300px;
+	min-width: 300px;
+	max-width: 100%;
 	flex-grow: 1;
 }
