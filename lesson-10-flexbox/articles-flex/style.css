@@ -1,0 +1,11 @@
+h1 {
+	text-align: center;
+}
+
+.article {
+	margin: 8px;
+	padding: 16px;
+	background-color: bisque;
+	width: 100%;
+	min-width: 300px;
+}
