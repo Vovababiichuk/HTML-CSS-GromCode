@@ -4,22 +4,17 @@
 
 .text {
 	box-sizing: border-box;
-	position: relative;
-	margin: 16px;
+	margin: 16px 0 0 16px;
 	border-bottom: 1px dotted black;
-	width: fit-content;
-	margin-bottom: 60px;
 }
 
 .tooltip {
+	position: relative;
 	box-sizing: border-box;
-	position: absolute;
 	background-color: gray !important;
 	color: white;
 	border-radius: 4px;
 	padding: 8px;
-	left: 0;
-	bottom: -40px;
-	margin-block-start: 0;
-	margin-block-end: 0;
+	right: 100px;
+	bottom: -32px;
 }
