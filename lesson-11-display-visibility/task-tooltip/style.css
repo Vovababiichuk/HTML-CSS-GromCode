@@ -13,14 +13,4 @@
 	padding: 8px;
 	left: 0;
 	bottom: -40px;
-	display: none;
-}
-
-.text:hover {
-	cursor: pointer;
-}
-
-.text:hover .tooltip{
-	display: block;
-	cursor: pointer;
 }
