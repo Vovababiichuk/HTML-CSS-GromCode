@@ -1,9 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .gallery {
 	display: flex;
-	overflow-x: scroll;
+	overflow: auto;
 	cursor: all-scroll;
 }
 
-img {
+.thumb {
 	margin: 8px;
 }
