@@ -5,7 +5,8 @@
 
 .menu-button {
 	display: inline-block;
-	height: 20px;
+	margin-block-start: 0;
+	margin-inline-end: 0;
 	padding: 16px;
 	background-color: darkgreen;
 	opacity: 0.8;
