@@ -3,18 +3,19 @@
 }
 
 .text {
+	position: relative;
 	box-sizing: border-box;
-	margin: 16px 0 0 16px;
+	margin: 16px;
 	border-bottom: 1px dotted black;
+	max-width: max-content;
 }
 
 .tooltip {
-	position: relative;
-	box-sizing: border-box;
-	background-color: gray !important;
+	position: absolute;
+	background-color: gray;
 	color: white;
 	border-radius: 4px;
 	padding: 8px;
-	right: 100px;
-	bottom: -32px;
+	left: 0;
+	bottom: -40px;
 }
