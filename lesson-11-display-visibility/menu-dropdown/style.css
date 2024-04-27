@@ -4,6 +4,7 @@
 
 .dropdown {
 	margin: 16px;
+	display: inline-block;
 }
 
 .menu-button {
@@ -14,11 +15,11 @@
 	font-size: 16px;
 	color: white;
 	cursor: pointer;
-	height: 50px;
 }
 
 .menu-list {
 	display: none;
+	margin-block-start: 0;
 	background-color: lightcyan;
 	color: black;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -28,7 +29,6 @@
 
 .menu-list {
 	padding: 0;
-	margin: 0;
 }
 
 .menu-item {
@@ -40,6 +40,11 @@
 	opacity: 1;
 }
 
-.menu-button:hover + .menu-list {
+.dropdown:hover .menu-list {
 	display: block;
+}
+
+.menu-item:hover {
+	background-color: ghostwhite;
+	cursor: pointer;
 }
