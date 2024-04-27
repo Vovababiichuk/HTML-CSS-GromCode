@@ -3,14 +3,17 @@
 }
 
 .text {
+	box-sizing: border-box;
 	position: relative;
 	margin: 16px 0 0 16px;
 	border-bottom: 1px dotted black;
 	width: fit-content;
+	margin-block-start: 0;
 	margin-block-end: 0;
 }
 
 .tooltip {
+	box-sizing: border-box;
 	display: block;
 	position: absolute;
 	background-color: gray !important;
@@ -19,5 +22,6 @@
 	padding: 8px;
 	left: 0;
 	bottom: -40px;
+	margin-block-start: 0;
 	margin-block-end: 0;
 }
