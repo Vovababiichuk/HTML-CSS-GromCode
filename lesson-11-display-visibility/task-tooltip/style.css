@@ -8,7 +8,6 @@
 	margin: 16px;
 	border-bottom: 1px dotted black;
 	max-width: max-content;
-	z-index: 1;
 }
 
 .tooltip {
@@ -19,5 +18,5 @@
 	padding: 8px;
 	left: 0;
 	bottom: -40px;
-	z-index: 100;
+	display: inline-block;
 }
