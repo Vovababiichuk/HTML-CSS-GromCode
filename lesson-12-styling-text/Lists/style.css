@@ -1,0 +1,19 @@
+.list {
+	list-style-type: none;
+}
+
+li {
+	font-size: 1.5 rem;
+}
+
+.first {
+	text-decoration: overline;
+}
+
+.second {
+	text-decoration: line-through;
+}
+
+.third {
+	text-decoration: red underline;
+}
