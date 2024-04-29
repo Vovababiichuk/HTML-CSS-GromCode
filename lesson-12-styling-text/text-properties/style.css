@@ -28,3 +28,9 @@ p {
 .link {
   text-decoration: none;
 }
+
+h1 {
+  word-spacing: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
