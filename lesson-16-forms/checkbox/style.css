@@ -15,10 +15,10 @@ input[type="checkbox"] {
 	display: inline-block;
 	width: 25px;
 	height: 25px;
-	background-color: #006400;
+	background-color: #d3d3d3;
 	left: 0;
 }
 
 input:checked + .checkmark {
-	background-color: #d3d3d3;
+	background-color: #006400;
 }
