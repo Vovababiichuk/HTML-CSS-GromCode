@@ -3,7 +3,7 @@
 	padding-left: 35px;
 	font-size: 24px;
 	margin: 16px;
-	display: block;
+	display: inline-block;
 }
 
 input[type="checkbox"] {
@@ -19,6 +19,7 @@ input[type="checkbox"] {
 	height: 25px;
 	background-color: #d3d3d3;
 	left: 0;
+	top: 0;
 }
 
 input:checked + .checkmark {
