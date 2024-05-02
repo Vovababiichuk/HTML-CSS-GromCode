@@ -53,3 +53,7 @@
 	outline: none;
 	border: none;
 }
+
+input:invalid {
+	border: 3px solid #ff0000;
+}
