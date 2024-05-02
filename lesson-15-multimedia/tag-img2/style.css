@@ -1,0 +1,27 @@
+.image-container {
+	position: relative;
+}
+
+.image {
+	max-width: 100%;
+	margin: 0 auto;
+	display: block;
+}
+
+.image-button {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 30px;	
+	background-color: bisque;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: 700;
+	opacity: 0.5;
+}
+
+.image-button:hover {
+	opacity: 1;
+	cursor: pointer;
+}
