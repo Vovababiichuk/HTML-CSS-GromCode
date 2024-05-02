@@ -50,8 +50,6 @@
 	text-transform: uppercase;
 	color: white;
 	border-radius: 4px;
-	outline: none;
-	border: none;
 }
 
 input:invalid {
