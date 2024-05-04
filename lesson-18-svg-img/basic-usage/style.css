@@ -4,7 +4,7 @@
 
 .row {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: repeat(2, 1fr)
 }
 .column {
 	display: flex;
@@ -13,11 +13,11 @@
 }
 
 .small-bird {
-	width: 64px;
-	height: 64px;
+	width: 68px;
+	height: 68px;
 }
 
 .large-bird {
-	width: 320px;
-	height: 320px;
+	width: 300px;
+	height: 300px;
 }
