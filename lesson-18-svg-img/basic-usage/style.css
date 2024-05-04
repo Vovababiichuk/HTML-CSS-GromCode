@@ -3,16 +3,13 @@
 }
 
 .row {
-	/* display: grid; */
-	/* grid-template-columns: repeat(2, 1fr); */
-	width: 100%;
-	display: flex;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
 }
 .column {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	flex: 1;
 }
 
 .small-bird {
