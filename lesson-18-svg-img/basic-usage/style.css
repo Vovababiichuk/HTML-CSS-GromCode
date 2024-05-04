@@ -1,26 +1,18 @@
-* {
-	box-sizing: border-box;
-}
-
 .row {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	justify-items: center;
-
+  width: 100%;
+  display: flex;
+}
+.small-bird {
+  width: 64px;
+  height: 64px;
+}
+.large-bird {
+  width: 320px;
+  height: 320px;
 }
 .column {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-.small-bird {
-	width: 64px;
-	height: 64px;
-}
-
-.large-bird {
-	width: 278px;
-	height: 278px;
-	margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
 }
