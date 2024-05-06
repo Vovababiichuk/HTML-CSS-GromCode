@@ -24,15 +24,15 @@
 	50% {
 		top: 300px;
 		left: 300px;
+		background-color: aqua;
 	}
 	75% {
 		left: 0;
 		top: 300px;
-		background-color: aqua;
+		background-color: yellowgreen;
 	}
 	100% {
 		left: 0;
 		top: 0;
-		background-color: darkgreen;
 	}
 }
