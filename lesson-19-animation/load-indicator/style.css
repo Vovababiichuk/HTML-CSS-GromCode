@@ -1,0 +1,22 @@
+.spinner {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.spinner-text {
+	font-family: monospace;
+	font-size: 16px;
+	text-transform: uppercase;
+	animation: blinking 2s infinite;
+}
+
+.spinner-text::after {
+	content: "";
+	border-bottom: 4px solid black;
+	width: 10px;
+	border-radius: 2px;
+	display: block;
+	animation: moving 2s infinite alternate;
+}
