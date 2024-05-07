@@ -8,3 +8,11 @@
 	background-color: tomato;
 	transform: translateX(200px) translateY(100px) rotate(45deg) scale(1.5);
 }
+
+p {
+	margin: 0 32px;
+	padding: 8px;
+	background-color: bisque;
+	border-radius: 4px;
+	display: inline-block;
+}
