@@ -92,7 +92,7 @@ body {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 600px) {
 	.main {
 		flex-direction: column;
 	}
@@ -103,7 +103,7 @@ body {
 	}
 }
 
-@media screen and (min-width: 600px) and (max-width: 1199px) {
+@media screen and (min-width: 600px) and (max-width: 1200px) {
 	.main {
 		flex-direction: column;
 	}
@@ -121,7 +121,7 @@ body {
 	}
 }
 
-@media screen and (min-width: 1199px) {
+@media screen and (min-width: 1200px) {
 	.container {
 		display: flex;
 	}
