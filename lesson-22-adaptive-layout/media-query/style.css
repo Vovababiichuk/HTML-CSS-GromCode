@@ -22,7 +22,7 @@
 	}
 }
 
-@media (orientation: portrait) {
+@media screen and (orientation: portrait) {
 	.container {
 		flex-direction: column;
 	}
