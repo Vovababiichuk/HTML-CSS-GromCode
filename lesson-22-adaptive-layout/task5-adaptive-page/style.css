@@ -93,7 +93,7 @@ img {
 	background-color: #e5e5e5;
 }
 
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 600px) {
 	.main {
 		flex-direction: column;
 	}
@@ -104,7 +104,7 @@ img {
 	}
 }
 
-@media screen and (min-width: 600px) and (max-width: 1199px) {
+@media screen and (min-width: 600px) and (max-width: 1200px) {
 	.navigation {
 		width: 20%;
 	}
@@ -125,8 +125,5 @@ img {
 	}
 	.news {
 		width: 20%;
-	}
-	.footer {
-		margin-top: auto;
 	}
 }
