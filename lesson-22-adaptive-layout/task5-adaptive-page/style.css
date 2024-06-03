@@ -103,7 +103,7 @@ body {
 	}
 }
 
-@media screen and (min-width: 600px) and (max-width: 1200px) {
+@media screen and (min-width: 600px) and (max-width: 1199px) {
 	.main {
 		flex-direction: column;
 	}
@@ -117,12 +117,27 @@ body {
 		width: 20%;
 	}
 	.section {
-		width: 80%;
+		width: 100%;
 	}
 }
 
 @media screen and (min-width: 1200px) {
+	.container {
+		display: flex;
+	}
 	.main {
 		display: flex;
+	}
+	.container {
+		width: 80%;
+	}
+	.news {
+		width: 20%;
+	}
+	.navigation {
+		width: 20%;
+	}
+	.section {
+		width: 100%;
 	}
 }
