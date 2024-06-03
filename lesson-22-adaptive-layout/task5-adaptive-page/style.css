@@ -103,7 +103,7 @@ body {
 	}
 }
 
-@media screen and (min-width: 600px) and (max-width: 1180px) {
+@media screen and (min-width: 600px) and (max-width: 1160px) {
 	.main {
 		flex-direction: column;
 	}
@@ -121,7 +121,7 @@ body {
 	}
 }
 
-@media screen and (min-width: 1180px) {
+@media screen and (min-width: 1160px) {
 	.container {
 		display: flex;
 	}
