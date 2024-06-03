@@ -128,9 +128,6 @@ body {
 	.main {
 		display: flex;
 	}
-	/* .navigation {
-		width: 20%;
-	} */
 	.news {
 		width: 60%;
 	}
