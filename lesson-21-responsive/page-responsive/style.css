@@ -45,18 +45,20 @@ body {
 
 .nav-list-item {
 	background-color: #808080;
+	height: 2em;
 	line-height: 2em;
 	margin-bottom: 0.5em;
-	padding-left: 0.5em;
-	overflow: hidden;
-	white-space: nowrap;
-	text-overflow: ellipsis;
-	color: #fff;
 }
 
 .nav-list-link {
 	color: #fff;
 	text-decoration: none;
+	width: 100%;
+	display: inline-block;
+	padding: 0 0.5em;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
 }
 
 .section {
@@ -82,7 +84,7 @@ body {
 }
 
 .footer {
-  text-align: center;
-  padding: 0.5em;
-  background-color: #e5e5e5;
+	text-align: center;
+	padding: 0.5em;
+	background-color: #e5e5e5;
 }
