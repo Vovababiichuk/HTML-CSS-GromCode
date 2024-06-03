@@ -12,6 +12,8 @@ html {
 	height: 3em;
 	padding: 0 1em;
 	background-color: #eee;
+	display: flex;
+	align-items: center;
 }
 
 .menu-button {
