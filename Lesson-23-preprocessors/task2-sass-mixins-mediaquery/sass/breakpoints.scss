@@ -1,0 +1,11 @@
+  $sm: 600px;
+  $md: 899px;
+	$lg: 900px;
+	$xl: 1199px;
+	$xxl: 1200px;
+
+@mixin media-small {
+	@media screen and (max-width: $sm) {
+		@content;
+	}
+}
