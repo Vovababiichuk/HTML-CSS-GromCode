@@ -4,7 +4,7 @@
 }
 
 .menu {
-  margin-left: 1em;
+  margin-left: 0.5em;
   margin-top: 0;
   margin-bottom: 0;
   text-transform: uppercase;
@@ -19,6 +19,7 @@
   padding: 0 8px;
   line-height: 3em;
   cursor: pointer;
+  position: relative;
 }
 .menu__item:hover {
   background-color: #9acd32;
@@ -32,6 +33,7 @@
 }
 .menu .submenu {
   display: none;
+  position: absolute;
   padding: 0;
   margin: 0;
   background-color: #ff7f50;
