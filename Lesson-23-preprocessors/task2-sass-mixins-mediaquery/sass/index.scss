@@ -17,7 +17,7 @@
 	margin: 8px;
 }
 
-@media screen and (max-width: 600px) {
+@include media-small {
 	.square {
 		background-color: #ff7f50;
 	}
@@ -35,7 +35,7 @@
 	}
 }
 
-@media screen and (min-width: 1200px) {
+@include media-large {
 	.square {
 		background-color: #c47;
 	}
