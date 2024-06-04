@@ -6,6 +6,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100vh;
 }
 
 .square {
@@ -19,7 +20,7 @@
     background-color: #ff7f50;
   }
 }
-@media screen and (min-widthL: 600px) and (max-width: 899px) {
+@media screen and (min-width: 600px) and (max-width: 899px) {
   .square {
     background-color: #8a2be2;
   }
@@ -29,15 +30,9 @@
     background-color: #a61;
   }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .square {
     background-color: #c47;
-  }
-}
-@media screen and (orientation: landscape) {
-  .container {
-    display: flex;
-    align-items: center;
   }
 }
 @media screen and (orientation: portrait) {
